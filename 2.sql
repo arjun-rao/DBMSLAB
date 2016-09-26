@@ -56,6 +56,5 @@ select SUPPLY.sno from SUPPLY,PART where SUPPLY.pno=PART.pno and PART.colour='GR
 
 --j. Retrieve the supplier who supplies both red and green colored parts.
 select distinct SUPPLY.sno from SUPPLY,PART where SUPPLY.pno=PART.pno and PART.colour='GREEN' and SUPPLY.sno  IN(select SUPPLY.sno from SUPPLY,PART where SUPPLY.pno=PART.pno and PART.COLOUR='RED' ); 
-/*Answer3*/
 
-DELETE from PART where colour='GREEN';
+
