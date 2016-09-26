@@ -14,7 +14,7 @@ CREATE TABLE SUPPLIER (
 CREATE TABLE SUPPLY (
 	pno integer(10),
 	sno integer(10),
-	quantity varchar(20),
+	quantity integer(20),
 	primary key(pno, sno),
 	foreign key(pno) references PART(pno) on delete cascade,
 	foreign key(sno) references SUPPLIER(sno) on delete cascade
