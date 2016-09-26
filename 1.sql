@@ -23,7 +23,6 @@ CREATE TABLE assigned_to
 );
 
 
-dayanandap@gmail.com
 INSERT INTO employee (SSN, Name, DeptNo) VALUES ('IS11','Affan', 1);
 INSERT INTO project (ProjectNo, ProjectArea) VALUES (124,'Adhoc Networks'),(125,'Databases'),(126,'OOPS'),(127,'Graphics');
 
