@@ -1,5 +1,3 @@
-CREATE DATABASE DB2;
-USE DB2;
 
 CREATE TABLE PART (
 	pno integer(10) primary key,
