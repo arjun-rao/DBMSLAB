@@ -39,6 +39,18 @@ INSERT INTO assigned_to (SSN, ProjectNo) VALUES ('IS10',127);
 INSERT INTO assigned_to (SSN, ProjectNo) VALUES ('IS11',123);
 INSERT INTO assigned_to (SSN, ProjectNo) VALUES ('IS03',123), ('IS04',123), ('IS05',123), ('IS06',123), ('IS07',123), ('IS08',123), ('IS09',123), ('IS10',123);
 
+CSV Data Dump for employee table:
+IS02,Aditya,1
+IS03,Ayush,2
+IS04,Apeksha,4
+IS05,Anusha,3
+IS06,Anisha,5
+IS07,Amisha,2
+IS08,Akshatha,1
+IS09,Amrutha,3
+IS10,Amritha,4
+IS11,Arpitha,5
+
 */
 
 /*Queries
