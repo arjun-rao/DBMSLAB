@@ -33,7 +33,7 @@ INSERT INTO SUPPLY (pno, sno, quantity) VALUES (101, 1, 5), (102, 1, 3), (105, 1
 SELECT pno from SUPPLY where sno = (select sno from SUPPLIER where sname='Ram');
 
 --b. Obtain the Names of suppliers who supply bolts
-SELECT sname, colour as 'BOLTSCOLOR' from SUPPLIER, SUPPLY, PART where pname='BOLTS' AND SUPPLY.sno=SUPPLIER.sno AND PART.pno=SUPPLY.pno;
+SELECT sname, colour as 'BOLT COLOUR' from SUPPLIER, SUPPLY, PART where pname='BOLTS' AND SUPPLY.sno=SUPPLIER.sno AND PART.pno=SUPPLY.pno;
 
 --c.Delete the parts which are green in colour
 DELETE from PART where colour='GREEN';
