@@ -22,15 +22,15 @@ CREATE TABLE SUPPLY (
 
 INSERT INTO PART (pno, pname, colour) VALUES (101, 'BOLTS', 'RED'), (102, 'NUTS', 'RED'), (103, 'PLUGS', 'RED'), (104, 'BOLTS', 'BLUE'), (105, 'NUTS', 'BLUE'), (106, 'PLUGS', 'BLUE'), (107, 'BOLTS', 'GREEN'), (108, 'NUTS', 'GREEN'), (109, 'PLUGS', 'GREEN');
 
-INSERT INTO SUPPLIER (sno, sname, address) VALUES (1, 'John', 'BNG'), (2, 'Jacob', 'DEL'), (3, 'Lucius', 'CHE');
+INSERT INTO SUPPLIER (sno, sname, address) VALUES (1, 'Ram', 'BNG'), (2, 'Jacob', 'DEL'), (3, 'Lucius', 'CHE');
 INSERT INTO SUPPLIER (sno, sname, address) VALUES (4, 'Steve', 'BOM');
 INSERT INTO SUPPLY (pno, sno, quantity) VALUES (107, 4, 10), (109, 4, 15);
 INSERT INTO SUPPLY (pno, sno, quantity) VALUES (101, 1, 5), (102, 1, 3), (105, 1, 5), (109, 1, 10), (103, 2, 5), (106, 2, 10), (107, 2, 5), (109, 2, 3), (104, 3, 3), (106, 3, 5), (108, 3, 10), (109, 3, 6);
 
 */
 
---a. Obtain the PNO of parts supplied by supplier ‘John’.
-SELECT pno from SUPPLY where sno = (select sno from SUPPLIER where sname='John');
+--a. Obtain the PNO of parts supplied by supplier ‘Ram’.
+SELECT pno from SUPPLY where sno = (select sno from SUPPLIER where sname='Ram');
 
 --b. Obtain the Names of suppliers who supply bolts
 SELECT sname, colour as 'BOLTSCOLOR' from SUPPLIER, SUPPLY, PART where pname='BOLTS' AND SUPPLY.sno=SUPPLIER.sno AND PART.pno=SUPPLY.pno;
