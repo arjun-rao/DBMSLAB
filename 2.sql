@@ -1,4 +1,4 @@
-
+/*
 CREATE TABLE PART (
 	pno integer(10) primary key,
 	pname varchar(20),
@@ -27,6 +27,7 @@ INSERT INTO SUPPLIER (sno, sname, address) VALUES (4, 'Steve', 'BOM');
 INSERT INTO SUPPLY (pno, sno, quantity) VALUES (107, 4, 10), (109, 4, 15);
 INSERT INTO SUPPLY (pno, sno, quantity) VALUES (101, 1, 5), (102, 1, 3), (105, 1, 5), (109, 1, 10), (103, 2, 5), (106, 2, 10), (107, 2, 5), (109, 2, 3), (104, 3, 3), (106, 3, 5), (108, 3, 10), (109, 3, 6);
 
+*/
 
 --a. Obtain the PNO of parts supplied by supplier ‘John’.
 SELECT pno from SUPPLY where sno = (select sno from SUPPLIER where sname='John');
