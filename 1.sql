@@ -81,4 +81,5 @@ Select name from employee where SSN in (SELECT SSN from assigned_to where Projec
 Select name from employee where SSN in (select f.SSN from (SELECT SSN from assigned_to where ProjectNo = (Select ProjectNo from project where ProjectArea like 'Database%')) g, (select SSN from assigned_to group by SSN having count(projectNo) = 1)f where g.ssn = f.ssn);
 --n. Retrieve the employees working on database projects, and not testing projects.
 Select name from employee where SSN in (SELECT SSN from assigned_to where ProjectNo in (Select ProjectNo from project where ProjectArea like 'Database%')) and SSN not in (SELECT SSN from assigned_to where ProjectNo in (Select ProjectNo from project where ProjectArea like 'Testing%'));
---on terminal mysqlimport -u ise18 -pise18 --fields-terminated-by=',' --local ise18 employee.csv
+
+
