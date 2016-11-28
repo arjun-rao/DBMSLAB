@@ -1,0 +1,9 @@
+Enter value for n: 5
+old   6:	 n:=&n;
+new   6:	 n:=5;
+5 is a prime No.
+
+Enter value for n: 32
+old   6:	 n:=&n;
+new   6:	 n:=32;
+32 is a not prime No.
