@@ -9,3 +9,15 @@ Employees in sales dept with more than 5 projects:
 Anisha(SSN: IS06 )
 Akshatha(SSN: IS08 )
 
+
+12b:
+
+
+SQL> @12b.sql
+Suppliers who supply part p234:
+Bob's Garage
+John Cars
+Anthony Auto Store
+Cars by David
+
+PL/SQL procedure successfully completed.
