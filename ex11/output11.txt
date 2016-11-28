@@ -1,0 +1,16 @@
+SQL> @11a.sql
+Enter value for input_string: malayalam
+old   3:     str VARCHAR2(20) := '&Input_String';
+new   3:     str VARCHAR2(20) := 'malayalam';
+malayalam Is A Palindrome!
+
+PL/SQL procedure successfully completed.
+
+SQL> @11a.sql
+Enter value for input_string: malyalam
+old   3:     str VARCHAR2(20) := '&Input_String';
+new   3:     str VARCHAR2(20) := 'malyalam';
+malyalam Is Not A Palindrome!
+
+PL/SQL procedure successfully completed.
+
