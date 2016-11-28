@@ -1,0 +1,15 @@
+Employee Table
+SSN    Name	 DeptNo   Salary
+IS04	Manasa	     4	  40000
+IS05	Anusha	     3	  30000
+IS06	Anisha	     10    20000
+IS07	Amisha	     10    20000
+
+Number of rows updated are 2
+
+Updated Employee Table
+SSN    Name	 DeptNo   Salary
+IS04	Manasa	     4	  40000
+IS05	Anusha	     3	  30000
+IS06	Anisha	     10    23000
+IS07	Amisha	     10    23000

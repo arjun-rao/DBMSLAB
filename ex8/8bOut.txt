@@ -1,0 +1,15 @@
+Enter value for n1: 6
+old   7: 	n1:= & n1;
+new   7: 	n1:= 6;
+Enter value for n2: 4
+old   8: 	n2:= & n2;
+new   8: 	n2:= 4;
+Exception raised, n1 is larger than n2
+
+Enter value for n1: 3
+old   7: 	n1:= & n1;
+new   7: 	n1:= 3;
+Enter value for n2: 5
+old   8: 	n2:= & n2;
+new   8: 	n2:= 5;
+No error, n1 is smaller than n2
