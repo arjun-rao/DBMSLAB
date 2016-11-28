@@ -1,0 +1,5 @@
+Enter value for n: 5
+old   4: 	n:=&n;
+new   4: 	n:=5;
+5! = 120
+

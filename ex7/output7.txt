@@ -1,0 +1,5 @@
+Enter value for n: 23
+old   6:	 n:=&n;
+new   6:	 n:=23;
+23 is a prime No.
+
