@@ -1,0 +1,8 @@
+5 rows inserted into the table sailorCopy
+Sailor Copy Table
+SID    Name    Age   Rating
+101    brad    20    10
+102    lucy    21    10
+103    mary    18    9
+104    john    24    9
+105    will    25    9
