@@ -1,0 +1,29 @@
+SQL>@10a.sql
+Enter value for n: 5
+old   4: 	n:=&n;
+new   4: 	n:=5;
+5! = 120
+
+
+
+SQL> @10b.sql;
+Enter value for dept: 1
+old   8:     dept := &dept;
+new   8:     dept := 1;
+Displaying Records for Department:
+SSN, Name of employees in department 1
+IS02, Aditya
+IS08, Akshatha
+
+PL/SQL procedure successfully completed.
+
+SQL> @10b.sql;
+Enter value for dept: 3
+old   8:     dept := &dept;
+new   8:     dept := 3;
+Displaying Records for Department:
+SSN, Name of employees in department 3
+IS05, Anusha
+IS09, Amrutha
+
+
